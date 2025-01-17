@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO List</title>
+  <link rel="stylesheet" href="todo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+  <div class="mainbody" id="mainbody">
+    
+    <div class="main" id="main">
+      <div class="top">
+        <h1 class="title">TODO List</h1>
+        <div class="searchbox">
+          <input type="search" placeholder="Search note..." id="search-feild">
+          <button id="search-btn">
+            <i class="fas fa-search" id="ico"></i>
+          </button>
+          <div class="select">
+
+    
+          <select id="select-option">
+            <option value="all">All</option>
+            <option value="incomplete">Incomplete</option>
+            <option value="complete">Complete</option>
+          </select>
+          <button id="light-btn" onclick="toggleLightMode()">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+        </div>
+      </div>
+
+
+
+      <div class="notes">
+        <div class="note-detail" id="note-get">
+          <input type="checkbox" name="" id="checkbox" class="check">
+          <label for="#"># task1</label>
+          <button class="ga-pen"><i class="fa-solid fa-trash"></i></button>
+          <button class="ga-pen"><i class="fa-solid fa-pen"></i></button>
+          <hr>
+          <input type="checkbox" name="" id="checkbox">
+          <label for="#"># task1</label>
+          <button class="ga-pen"><i class="fa-solid fa-trash"></i></button>
+          <button class="ga-pen"><i class="fa-solid fa-pen"></i></button>
+          <hr>
+          <input type="checkbox" name="" id="checkbox">
+          <label for="#"># task1</label>
+          <button class="ga-pen" id="del" onclick="delet()"><i class="fa-solid fa-trash"></i></button>
+          <button class="ga-pen"><i class="fa-solid fa-pen"></i></button>
+          <hr>
+        </div>
+      </div>
+      <div class="add-btn">
+        <button id="add-btn" onclick="addNote()">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+      <div id="modal-card">
+        <div id="modal">
+          <h1 class="title">New Note</h1>
+          <input type="text" id="note-input">
+          <div id="modalbox">
+            <button id="cancel-btn" class="btn-modal" onclick="cancel()">Cancel</button>
+            <button class="btn-modal" id="apply-btn" onclick="applyNote()">Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="todo.js"></script>
+   
+  </div>
+</body>
+
+</html>

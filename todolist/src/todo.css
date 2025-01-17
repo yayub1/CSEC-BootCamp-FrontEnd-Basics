@@ -1,0 +1,173 @@
+.mainbody {
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  width: 60%;
+  height: 97%;
+
+  justify-self: center;
+  position: relative;
+  top: 20px;
+}
+
+.top {
+  width: 80%;
+
+  position: relative;
+  top: 0px;
+  justify-self: center;
+}
+
+.title {
+  text-align: center;
+}
+
+#search-feild {
+  width: 75%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.select {
+  position: relative;
+  left: -10px;
+  border-radius: 10px;
+
+}
+
+.select #select-option {
+  height: 40px;
+  border-radius: 10px;
+}
+
+.select #light-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+#modal-card {
+  display: none;
+}
+
+.searchbox {
+  display: flex;
+}
+
+#search-btn {
+  position: relative;
+  left: -50px;
+  top: 5px;
+  font-size: 25px;
+
+  border: none;
+  background: transparent;
+}
+
+.notes {
+  width: 80%;
+
+  height: 81%;
+  justify-self: center;
+  margin-top: 20px;
+}
+
+#add-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+  top: -100px;
+  left: -120px;
+  float: right;
+}
+
+#checkbox {
+  width: 30px;
+  height: 30px;
+}
+
+label {
+  font-size: 30px;
+}
+
+#modal-card {
+  width: 80%;
+  height: 50%;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+  top: -600px;
+  left: 100px;
+  background-color: hsl(160, 100%, 75%);
+  border-radius: 10px;
+}
+
+#note-input {
+  width: 80%;
+  height: 50px;
+}
+
+.btn-modal {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+
+
+
+
+#modalbox {
+  justify-items: end;
+
+  position: relative;
+  top: 150px;
+}
+.btn-modal {
+  font-size: 18px; 
+  padding: 10px 20px;
+  border: 2px solid #333; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;  
+}
+
+#apply-btn {
+  background-color: #4CAF50; 
+  color: #fff; 
+  
+    float: right;
+    margin-right: 50px;
+  }
+
+
+#apply-btn:hover { 
+  background-color: #45a049; 
+}
+
+#cancel-btn {
+  background-color: #ccc; 
+  color: #333;
+  float: left;
+  margin-left: 50px;
+}
+
+#cancel-btn:hover {
+  background-color: #ddd; 
+}
+
+.ga-pen{
+  border: none;
+  background-color: transparent;
+  float: right;
+position: relative;
+right: 20px;
+top: 15px;
+}
+.ga-pen:hover{
+  background-color: red;
+  border-radius: 10px;
+}
